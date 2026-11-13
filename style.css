@@ -1,119 +1,120 @@
-
-*{
-    margin:0px;
+* {
+    margin: 0px;
 }
-    
-    body {
+
+body {
     background-color: #0b0b0d;
     color: #d8cbbb;
-    height:100vh;
-    width:100vw;
+    height: 100vh;
+    width: 100vw;
 }
 
-header{
-    display:flex;
-    justify-content:space-between;
+header {
+    display: flex;
+    justify-content: space-between;
     background-color: #111111;
-    align-items:center;
-    padding:12px,35px;
+    align-items: center;
+    padding: 12px, 35px;
     height: 50px;
     border-bottom: 1px solid #383838;
 
 }
 
-.logo{
-    display:flex;
+.logo {
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     gap: 3px;
-     
-    
-}
-
-.logo_1{
-   font-size: 15px; 
-     letter-spacing: 4px; 
-}
-
-.logo_span{
-   font-size:12px; 
-}
-
-nav ul{
-    list-style:none;
-    display:flex;
-    gap: 25px;
+    padding-left: 20px;
    
-   }
 
 
-nav ul li
-{
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-font-size 18px;
 }
 
-nav a{
-   text-decoration: none; 
+.logo_1 {
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.logo_span {
+    font-size: 12px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+
+}
+
+
+nav ul li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif font-size 18px;
+}
+
+nav a {
+    text-decoration: none;
     color: #d8cbbb;
-    
+
     letter-spacing: 1px;
 }
 
-nav a:hover{
-    background-color:#C6A878
+nav a:hover {
+    background-color: #C6A878
 }
 
-#btn{
-   background-color: #791a1a;
-   padding:12px,18px;
-   font-size:20px;
-   margin:20px;
-   border-radius: 3px;
-  
+#btn {
+    background-color: #791a1a;
+    padding: 12px, 18px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 3px;
+
 
 }
 
 
 
 
-.trailer_section_1{
+.trailer_section_1 {
     text-align: center;
-     padding:30px 20px;
+    padding: 30px 20px;
     border-bottom: 1px solid #383838;
-   
+
 }
-#film_credit{
+
+#film_credit {
     font-family: Georgia, serif;
     font-size: 14px;
     letter-spacing: 1px;
     color: #d8cbbb;
     margin-bottom: 15px;
-    padding-top:30px;
-   
-}
-
-.trailer_container{
-     position: relative;
-  width:60%;
- margin: 0 auto;
- border-radius: 15px;
- box-shadow: 0 4px 10px rgba(220, 206, 206, 0.2);
-border: 1px solid #555;
+    padding-top: 30px;
 
 }
 
-.trailer_container img{
-    width:100%;
-    height:60vh;
+.trailer_container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(220, 206, 206, 0.2);
+    border: 1px solid #555;
+
+}
+
+.trailer_container img {
+    width: 100%;
+    height: 60vh;
     object-fit: cover;
     display: block;
+    border-radius: 15px;
     filter: brightness(65%);
-     
+
 }
 
-.trailer_content{
-     position: absolute;
+.trailer_content {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -121,16 +122,16 @@ border: 1px solid #555;
     width: 100%;
 }
 
-.trailer_content h1{
+.trailer_content h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:20px;
+    font-size: 20px;
     color: #e0d1bf;
     letter-spacing: 3px;
 
 }
 
-.play{
-        width: 55px;
+.play {
+    width: 55px;
     height: 55px;
     border-radius: 50%;
     border: 1px solid #d8cbbb;
@@ -140,23 +141,25 @@ border: 1px solid #555;
     cursor: pointer;
     margin: 10px 0;
 }
+
 .play:hover {
     background: #791a1a;
 }
 
-.trailer_content p{
-       font-family: Georgia, serif;
+.trailer_content p {
+    font-family: Georgia, serif;
     color: #d8cbbb;
     font-size: 11px;
 
 }
+
 .release-info {
     margin-top: 15px;
 }
 
 .release-info h3 {
     font-family: Georgia, serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: normal;
     color: #d8cbbb;
     letter-spacing: 1px;
@@ -167,47 +170,49 @@ border: 1px solid #555;
     font-size: 12px;
     color: #777;
     margin-top: 5px;
-    
+
 }
 
-.movie_info{
-     display: grid;
+.movie_info {
+    display: grid;
     grid-template-columns: 200px 1fr;
     gap: 65px;
 
     max-width: 620px;
     margin: 20px auto 50px;
     align-items: center;
-    
+
 }
 
-.poster{
-    text-align:center;
+.poster {
+    text-align: center;
 }
 
-.poster img{
+.poster img {
     width: 100%;
     height: 290px;
     object-fit: cover;
     border: 1px solid #555;
-    padding: 5px; 
+    box-shadow: 0 4px 10px rgba(220, 206, 206, 0.2);
+    border-radius: 20px;
+    padding: 5px;
 }
 
-.poster p{
-     font-size: 10px;
+.poster p {
+    font-size: 10px;
     color: #888;
     margin-top: 10px;
 }
 
 
 .damnation h2 {
-    font-family:cursive;
+    font-family: cursive;
     font-size: 32px;
     color: #d8cbbb;
     margin-bottom: 12px;
 }
 
-.description{
+.description {
 
     font-family: Georgia, serif;
     font-size: 13px;
@@ -216,8 +221,8 @@ border: 1px solid #555;
     margin-bottom: 22px;
 }
 
-.cast_info{
-     font-size: 11px;
+.cast_info {
+    font-size: 11px;
     color: #888;
     margin-bottom: 5px;
 
@@ -243,8 +248,8 @@ border: 1px solid #555;
     border-right: none;
 }
 
-.footer{
-      max-width: 660px;
+.footer {
+    max-width: 660px;
     margin: 40px auto;
     border-top: 1px solid #383838;
     border-bottom: 1px solid #383838;
@@ -265,6 +270,7 @@ border: 1px solid #555;
     color: #d8cbbb;
     letter-spacing: 0.5px;
 }
+
 .footer-btn {
     background-color: #791a1a;
     color: #ffffff;
